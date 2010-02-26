@@ -1,3 +1,6 @@
+// Copyright 2010 Curtis Nottberg
+// Licensed under Apache License version 2.0
+
 package org.mdns.browser;
 
 import org.hnode.HNodeBrowser;
@@ -43,7 +46,7 @@ public class SwitchActivity extends ListActivity
 	public static final int MENU_ITEM_ON  = Menu.FIRST;
 	public static final int MENU_ITEM_OFF = Menu.FIRST + 1;
 	public static final int MENU_ITEM_NODE_LIST = Menu.FIRST + 2;
-	 
+	
 	private Uri ActiveSwitchUri;
 
 	//
@@ -63,7 +66,8 @@ public class SwitchActivity extends ListActivity
 
 	private static final int SWITCH_ACTION_ON  = 0;
 	private static final int SWITCH_ACTION_OFF = 1;
-	final CharSequence[] items = {"On", "Off"};
+	private static final int SWITCH_ACTION_INFO = 2;
+	final CharSequence[] items = {"On", "Off", "Info"};
 
 
 
@@ -303,6 +307,7 @@ public class SwitchActivity extends ListActivity
 			case SWITCH_ACTION_OFF:
 				swctl.RequestSwitchOff(cursor.getInt(SwIDIdx));	
 			break;
+			
 		}
 		
 	}
@@ -348,7 +353,18 @@ public class SwitchActivity extends ListActivity
 	    	{
 	    	    public void onClick(DialogInterface dialog, int item) 
 	    	    {
-	    	        SwitchActivity.this.PerformSwitchAction(item);
+					if( item == SWITCH_ACTION_INFO )
+					{
+						// Launch the node list activity.
+						Intent myIntent = new Intent(SwitchActivity.this, SwitchDataActivity.class);
+						myIntent.setData(ActiveSwitchUri);
+						
+						startActivity(myIntent);
+					}
+					else
+					{
+						SwitchActivity.this.PerformSwitchAction(item);
+					}
 	    	    }
 	    	});
 	    	dialog = builder.create();

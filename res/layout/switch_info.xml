@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// Copyright 2010 Curtis Nottberg
+// Licensed under Apache License version 2.0
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    	     Switch._ID,         // 0
+	     Switch.REMOTE_ID,   // 1
+	     Switch.IDSTR,       // 2
+	     Switch.NAME,        // 3
+	     Switch.UID,         // 4
+	     Switch.CAPABILITIES,// 5
+	     Switch.NODEURI,     // 6
+	     Switch.SSID,        // 7
+	     Switch.UPDATED_DATE // 8
+    
+	<TextView android:id="@android:id/text1"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="@string/switch_name"
+    />
+	<TextView android:id="@android:id/text2"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="normal"
+    />
+	<TextView android:id="@+id/text3"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="@string/switch_idstr"
+    />
+	<TextView android:id="@+id/text4"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="normal"
+    />
+	<TextView android:id="@+id/text5"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="@string/switch_remoteid"
+    />
+	<TextView android:id="@+id/text6"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="normal"
+    />
+    <TextView android:id="@+id/text7"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="@string/switch_capabilities"
+    />
+	<TextView android:id="@+id/text8"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="normal"
+    />
+	<TextView android:id="@+id/text9"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="@string/switch_uri"
+    />
+	<TextView android:id="@+id/text10"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="normal"
+    />    
+    <TextView android:id="@+id/text11"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="@string/switch_uid"
+    />
+	<TextView android:id="@+id/text12"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="normal"
+    />    
+    <TextView android:id="@+id/text13"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="@string/endpoint_ssid"
+    />   
+	<TextView android:id="@+id/text14"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="normal"
+    />
+    <TextView android:id="@+id/text15"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:text="@string/endpoint_updatetime"
+    />   
+	<TextView android:id="@+id/text16"
+    android:paddingBottom="4dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textStyle="normal"
+    />
+ </LinearLayout>
+ 

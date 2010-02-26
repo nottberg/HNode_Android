@@ -1,57 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+// Copyright 2010 Curtis Nottberg
+// Licensed under Apache License version 2.0
+-->
 <resources>
     <string name="app_name">HNode Control</string>
     <string name="app_desc">Find and Control HNode provided services.</string>
-    <string name="search_label">TunesRemote Search</string>
-    <string name="search_hint">Music keywords</string>
-    <string name="albums_empty">No albums found\nfor this artist.</string>
-    <string name="albums_menu_play">Play album</string>
-    <string name="albums_menu_browse">Browse tracks</string>
-    <string name="albums_album_caption">%d tracks</string>
-    <string name="artists_empty">No artists found\nin this library.</string>
-    <string name="artists_menu_play">Play artist</string>
-    <string name="artists_menu_browse">Browse albums</string>
-    <string name="notif_title">Remote music playing</string>
-    <string name="notif_caption">%s - %s</string>
-    <string name="control_menu_search">Search</string>
-    <string name="control_menu_artists">Artists</string>
-    <string name="control_menu_pick">Pick library</string>
-    <string name="control_menu_repeat_none">No repeat</string>
-    <string name="control_menu_repeat_one">Repeat single</string>
-    <string name="control_menu_repeat_all">Repeat all</string>
-    <string name="control_menu_shuffle_on">Shuffle on</string>
-    <string name="control_menu_shuffle_off">Shuffle off</string>
-    <string name="library_menu_refresh">Refresh</string>
-    <string name="library_menu_manual">Manual add</string>
-    <string name="library_menu_forget">Forget all</string>
-    <string name="library_forget">Are you sure you want to forget all libraries ever paired with?</string>
-    <string name="library_forget_pos">Yes, forget</string>
-    <string name="library_forget_neg">No</string>
-    <string name="library_manual_pos">Connect</string>
-    <string name="library_manual_neg">Cancel</string>
-    <string name="tracks_empty">No tracks found\nfor this album.</string>
-    <string name="pairing_title">Pairing with Library</string>
-    <string name="pairing_caption1">Your Android device is now in pairing mode, and should appear in your desktop/laptop media player.  You\'ll need to enter a 4-digit code to finish the pairing process:</string>
-    <string name="pairing_caption2">After entering the code on your desktop/laptop, this window should disappear.  If you get stuck, just tap the back button to cancel.</string>
-    <string name="wizard_title1">TunesRemote helps you remote control your DACP-compatible desktop or laptop media player, such as Apple iTunes\u2122.</string>
-    <string name="wizard_title2">It lets you easily browse your albums, including full-text search from a distance.</string>
-    <string name="wizard_eula">Before we get started, we need to get some legal information out of the way:\n\nTunesRemote provides its service to you subject to the following conditions.  You accept these conditions by using TunesRemote.\n\nThis program and all information, content, materials, products and services included are provided by TunesRemote on an \'as is\' basis without warranties or conditions of any kind.\n\nNeither TunesRemote nor its author will not be liable for any damages of any kind arising from the use of this program or from any information, content, materials, products or services made available through this program.\n\niTunes is a registered trademark of Apple, Inc., registered in the U.S. and other countries.  This program makes no claim to be either authorized or approved by Apple, Inc.</string>
-    <string name="wizard_pos">Agree</string>
-    <string name="wizard_neg">Cancel</string>
-    <string name="dia_ipaddress">IP address</string>
-    <string name="dia_code">Pairing code</string>
-    <string name="item_fetch">Fetching more search results...</string>
-    <string name="item_network_title">Searching network for libraries...</string>
-    <string name="item_network_caption">Open iTunes and make sure you\'re on the same Wifi network.  If having trouble, try cycling your Wifi, opening port 3689 in your firewall, or tapping Menu and Refresh.</string>
-    <string name="toast_volume_title">Remote volume</string>
-    <string name="pref_background">background</string>
-    <string name="pref_fade">fade</string>
-    <string name="pref_fadeupnew">fadeupnew</string>
-    <string name="pref_vibrate">vibrate</string>
     <string name="menu_delete">Delete</string>
     <string name="menu_insert">Insert</string>
     <string name="menu_on">Switch On</string>
     <string name="menu_node_list">View Endpoints</string>
     <string name="menu_switch_list">View Switches</string>
     <string name="menu_rediscover">Clear and Enumerate</string>
+    <string name="endpoint_uri">HNode URI:</string>
+    <string name="endpoint_type">Endpoint Mime Type:</string>
+    <string name="endpoint_uid">HNode Unique ID:</string>
+    <string name="endpoint_version">Interface Version ( Major.Minor.Micro)</string>
+    <string name="endpoint_nickname">HNode Nickname</string>
+    <string name="endpoint_ssid">Network SSID</string>
+    <string name="endpoint_updatetime">Last Record Update</string>
+    <string name="switch_uri">Parent HNode URI</string>
+    <string name="switch_name">Switch Name</string>
+    <string name="switch_idstr">Identifier String</string>
+    <string name="switch_remoteid">Remote Index</string>
+    <string name="switch_capabilities">Capabilities</string>
+    <string name="switch_uid">Parent HNode UID</string>
 </resources>
